@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+header, footer {
+	background-color: grey;
+}
+
+header h1 {
+	text-align: center;
+}
+
+nav {
+	float: left;
+	width: 20%;
+	height: 150px;
+	text-align: center;
+}
+
+.content::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+li {
+	/* padding: 10px;
+	background-color: lightblue; */
+	padding: 8px;
+	margin-top: 8px;
+	background-color: #33b5e5;
+	color: #ffffff;
+}
+
+article {
+	float: left;
+	width: 80%;
+	/* 	border: 1px solid gray;
+ */
+	padding: 10px 10px 10px 30px;
+}
+
+ul {
+	margin: 1px;
+	text-transform: uppercase;
+	list-style-type: none;
+}
+
+a:LINK {
+	text-decoration: underline;
+	color: white;
+}
